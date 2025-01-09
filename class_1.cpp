@@ -9,9 +9,9 @@ class person
 		int age;
 	public:
 		void init(){
-			cout<<""<<endl;
+			cout<<"please imput your name"<<endl;
 			cin>>name;
-			cout<<""<<endl;
+			cout<<"please input your age"<<endl;
 			cin>>age;
 		}
 };
