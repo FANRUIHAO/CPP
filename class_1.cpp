@@ -5,7 +5,7 @@ class person
 {
 	
 	public:
-		int name;
+		string name;
 		int age;
 	public:
 		void init(){
@@ -18,5 +18,4 @@ class person
 int main(){
 	person zhangsan;
 	zhangsan.init();
-	
 }
