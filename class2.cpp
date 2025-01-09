@@ -19,7 +19,7 @@ class slope{
 	protected:
 		int name;
 }t;
-char grade(float value){//全局变量
+char grade(float value){//全局变量 1
 	return value<1?'a':'b';
 }
 
