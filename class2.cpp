@@ -19,7 +19,7 @@ class slope{
 	protected:
 		int name;
 }t;
-char grade(float value){//全局变量 1
+char grade(float value){//鍏ㄥ眬鍙橀噺
 	return value<1?'a':'b';
 }
 
@@ -31,5 +31,7 @@ int main(){
 	float l=s.grade(2.3);
 	char q=grade(5.5);
 	cout<<k<<l<<q<<endl;
+
+	system("pause");
 }
 
